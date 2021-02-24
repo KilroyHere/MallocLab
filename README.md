@@ -23,8 +23,8 @@ Blocks are aligned to doubleword (8 byte) boundaries. Minimum block size is 32 b
  in each free block's payload.
  
  * Each block is of the form:
- * Free Blocks :     [ HDR | NEXTP | PREVP | FTR ] 
- * Bytes:              8      8        8      8   ==> MIN_BLK_SIZE = 32 bytes
+ * Free Blocks :   [ HDR | NEXTP | PREVP | FTR ] 
+ * Bytes:            8      8        8      8   ==> MIN_BLK_SIZE = 32 bytes
  * 
  * Allocated Blocks: [ HDR |   PAYLOADS   | FTR ]
  *                         
